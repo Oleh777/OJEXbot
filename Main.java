@@ -73,7 +73,7 @@ public class Main extends TelegramLongPollingBot {
         }
         SendAnimation animation = new SendAnimation();
         InputFile inputFile = new InputFile();
-        inputFile.setMedia(new File());
+        inputFile.setMedia(new File("D:/ok/Banderogus/src/main/java/org/example/frame1.jpg" ));
         animation.setAnimation(inputFile);
         animation.setChatId(chatId);
         executeAsync(animation);
